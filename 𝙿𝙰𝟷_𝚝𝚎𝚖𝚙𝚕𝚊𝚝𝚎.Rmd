@@ -18,7 +18,7 @@ Process/transform the data (if necessary) into a format suitable for your analys
 
 ```{r input_raw_data}
 library(lattice)
-setwd("~/Documents/Coursera/Reproducible Research/week1/assignment")
+setwd("~/Documents/Coursera/Reproducible Research/week1/assignment/Reproducible-Research-Assignment-1")
 input_raw_data <- read.csv("activity.csv",header = TRUE,sep = ",")
 input_raw_data$date <- as.Date(input_raw_data$date, "%Y-%m-%d")
 input_raw_data_new <- input_raw_data
